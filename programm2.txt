@@ -1,0 +1,19 @@
+Void main ()
+{
+const tint n=10;
+int m[n][n],i,j, sum=0;
+srand(time(NULL));
+for (i=0;i<n; i++);
+{
+for (j=0;j<n; j++ );
+{
+m [ i][j]=rand()%10;
+printf(“%d”, m[i][j];
+}
+printf (“/n”);
+for (i=0;i<n; i++)
+sum +=m[i][n-1-i];
+printf (“summa= %d/n”,sum);
+_getch();
+return o;
+0
